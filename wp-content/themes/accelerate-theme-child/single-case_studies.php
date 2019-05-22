@@ -38,9 +38,9 @@ get_header(); ?>
 					</aside>
 				<div class="case-study-images">
 
-						<?php  wp_get_attachment_image($image_1, $size); ?>
-						<?php  wp_get_attachment_image($image_2, $size); ?>
-						<?php  wp_get_attachment_image($image_3, $size); ?>
+						<?php  echo wp_get_attachment_image($image_1, $size); ?>
+						<?php  echo wp_get_attachment_image($image_2, $size); ?>
+						<?php  echo wp_get_attachment_image($image_3, $size); ?>
 
 				</div>
 			</article>
