@@ -63,3 +63,16 @@ div.case-study-images {
   float: left;
   width: 600px;
 }
+
+.featured-work ul li {
+  float: left;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 5px;
+}
+
+.featured-work h3 {
+  text-align: center;
+}
