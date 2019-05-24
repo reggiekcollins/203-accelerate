@@ -142,3 +142,27 @@ ul#menu-social-media-nav.social-media-menu {
   text-decoration: none;
   display: flex;
 }
+
+
+div.nf-form-layout {
+  width: 70%;
+}
+
+div#nf-field-1-wrap.field-wrap.textbox-wrap {
+  float:left;
+  width: 300px;
+}
+
+div#nf-field-2-wrap.field-wrap.email-wrap {
+  float:right;
+  position: relative;
+  bottom: 113px;
+  width: 300px;
+}
+
+#nf-field-4.ninja-forms-field.nf-element {
+    float: right;
+    background: #45ac9d;
+    width: 150px;
+    font-size: 20px;
+}
