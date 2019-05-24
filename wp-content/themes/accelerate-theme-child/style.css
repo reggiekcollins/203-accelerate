@@ -76,3 +76,63 @@ ul li {
 .featured-work h3 {
   text-align: center;
 }
+
+/*  case studies */
+
+div.read-more-link {
+  display: none;
+}
+
+/*Case Studies*/
+.case-study {
+    clear: both;
+}
+.case-study h2 {
+    font: 700 1.5em/1.5 'Open Sans Semibold';
+}
+.case-study h4 {
+    font: 400 .875em/1.25 'Open Sans';
+    margin: 1em 0;
+}
+.case-study h4 span {
+    color: #878787;
+}
+.case-study-sidebar p {
+    margin: 2em 0;
+}
+div.case-study-images {
+	margin-top: 3em;
+}
+div.case-study-images img {
+    width: 100%;
+    height: auto;
+	margin-bottom: 3.125em;
+	border: 1px solid #dddddd;
+}
+/*END Case Studies*/
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .featured-work .site-content {
+        margin: auto auto 3em;
+    }
+    .individual-featured-work {
+    	float: left;
+        width: 33%;
+        padding: 0 .5em;
+    }
+    .blog-post {
+    	width: 50%;
+    	float: left;
+        margin-bottom: 2em;
+    }
+    aside.case-study-sidebar {
+        float: left;
+        width: 34%;
+        margin: 0 6% 0 0;
+    }
+    div.case-study-images {
+        float: left;
+        width: 60%;
+    }
+}
