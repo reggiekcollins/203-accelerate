@@ -166,3 +166,38 @@ div#nf-field-2-wrap.field-wrap.email-wrap {
     width: 150px;
     font-size: 20px;
 }
+
+/*   about page */
+
+div.site-content p {
+  text-align: center;
+}
+
+.about-page {
+  font-size: 18px;
+  color: #ffffff;
+
+}
+
+.about-content {
+  display: flex;
+  float: left;
+}
+
+.our-services {
+  float:left;
+}
+
+.about-conent h3 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.about-content {
+    display: flex;
+    float: right;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    margin-left: 2em;
+}
