@@ -193,16 +193,30 @@ div.site-content {
     float: right;
     position: relative;
     bottom: 250px;
+    margin-right: 50px;
 }
 
 .about-services {
     list-style: none;
     margin-left: auto;
+
 }
 
 .services-description ul li{
   list-style-type: none;
 }
+
+.individual-about-service {
+  height: 350px;
+}
+
+.contact-button a {
+  float: right;
+  position: relative;
+  bottom: 90px;
+
+}
+
 
 /*.about-content {
     display: flex;

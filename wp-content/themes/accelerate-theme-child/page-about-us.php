@@ -67,7 +67,7 @@ get_header(); ?>
             <?php while ( have_posts() ) : the_post(); ?>
             <div class='contact-button'>
             <h2>Interested in working with us?</h2>
-              <a class="cbutton" href="<?php echo home_url('/contact/'); ?>">Contact Us</a>
+              <a class="button" href="<?php echo home_url('/contact/'); ?>">Contact us</a>
             </div>
             <?php endwhile; // end of the loop. ?>
         </div>
