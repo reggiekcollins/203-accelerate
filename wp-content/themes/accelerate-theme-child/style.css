@@ -152,8 +152,57 @@ ul#menu-social-media-nav.social-media-menu {
   width: 700px;
 }
 
-/*   about page */
+/*  about page */
 
+.home-page.hero-content h2 {
+  color: white;
+}
+
+.our-services h1, h4{
+  text-align: center;
+
+}
+
+div.site-content {
+  margin-bottom: 100px;
+}
+
+.services h3, p{
+  text-align: left;
+}
+
+.services {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.service-images {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-top: 40px;
+  }
+
+.about-description {
+    width: 60%;
+    float: right;
+    position: relative;
+    bottom: 250px;
+}
+
+.about-services {
+    list-style: none;
+    margin-left: auto;
+}
+
+.services-description ul li{
+  list-style-type: none;
+}
 
 /*.about-content {
     display: flex;

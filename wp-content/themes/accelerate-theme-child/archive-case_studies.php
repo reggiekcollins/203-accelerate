@@ -14,7 +14,9 @@
        	<?php while ( have_posts() ) : the_post();
             $image_1 = get_field('image_1');
             $size = "medium";
-       			$services = get_field('services'); ?>
+       			$services = get_field('services');
+             ?>
+
 
  		<article class="case-study clearfix">
      			<aside class="case-study-sidebar">
