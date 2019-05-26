@@ -217,7 +217,47 @@ div.site-content {
 
 }
 
+.section-content h2 {
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top:300px;
+  text-shadow: 1px 1px 0 #fff;
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
 
+.section-image {
+    background: url("img/image-2.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 100vh;
+}
+
+aside#pi_simpletwittertweets-2 {
+
+}
+
+div#secondary.widget-area {
+
+}
+
+.widget-title li {
+  float: right;
+}
+
+.tweets li {
+  list-style-type: none;
+
+
+}
+
+input[type="submit"] {
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: #fff;
+    background: #45ac9d;
+    border: none;
+    padding: 1em 3.75em;
+    text-align: center;
+}
 /*.about-content {
     display: flex;
     float: right;
