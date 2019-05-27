@@ -57,6 +57,8 @@ get_header(); ?>
 					<?php the_excerpt(); ?>
 					<?php endwhile; ?>
 					<?php wp_reset_query(); ?>
+
+					<a class="read-more-link"href="<?php echo site_url('blog'); ?>">Read More ›</a>
 			 </div>
 
 			 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
@@ -64,7 +66,6 @@ get_header(); ?>
 				 <?php dynamic_sidebar( 'sidebar-2' ); ?>
 			 </div>
 			 <?php endif; ?>
-
 			</div>
 		</section>
 
