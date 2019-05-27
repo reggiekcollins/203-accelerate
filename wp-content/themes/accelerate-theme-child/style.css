@@ -247,7 +247,14 @@ div#secondary.widget-area {
 .tweets li {
   list-style-type: none;
 
+}
 
+.widget-area {
+
+}
+
+div.read-more-link {
+  display: none;
 }
 
 input[type="submit"] {
