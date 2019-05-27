@@ -45,6 +45,10 @@ Text Domain:  accelerate-theme-child
 	font-size: 1.5em;
 }
 
+.blog-post a.button {
+
+}
+
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
@@ -64,9 +68,14 @@ div.case-study-images {
   width: 600px;
 }
 
+.featured-work {
+  width: 50%;
+}
+
 .featured-work ul li {
   float: left;
   list-style-type: none;
+
 }
 
 ul li {
@@ -109,6 +118,24 @@ div.case-study-images img {
 	margin-bottom: 3.125em;
 	border: 1px solid #dddddd;
 }
+
+.featured-work {
+  width: 100%;
+  float: left;
+  margin-bottom: 4em;
+}
+
+.homepage-featured-work ul{
+  overflow: auto;
+
+}
+
+.addtoany_content {
+    clear: both;
+    margin: 16px 0;
+    display: none;
+}
+
 /*END Case Studies*/
 
 /* Media Queries */
@@ -233,24 +260,31 @@ div.site-content {
 }
 
 aside#pi_simpletwittertweets-2 {
-
+    padding-left: 150px;
+    padding-top: 75px;
+    ;
 }
 
 div#secondary.widget-area {
+    width: 50%;
+    padding-right: 40px;
+    margin-top: 80px;
 
 }
 
-.widget-title li {
-  float: right;
+
+.widget-title  {
+    text-align: center;
 }
 
 .tweets li {
   list-style-type: none;
+  text-align: center;
 
 }
 
 .widget-area {
-
+  float: left;
 }
 
 div.read-more-link {
